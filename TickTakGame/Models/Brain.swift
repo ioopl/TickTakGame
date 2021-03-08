@@ -3,7 +3,6 @@ import Foundation
 class Brain: NSObject {
     var centerCoordinate = Coordinate(1, 1)
     var board = [[State]](repeating: [State](repeating: State.Blank, count: 3), count: 3)
-  //var board = [[State]](count: 3, repeatedValue:[State](count: 3, repeatedValue:State.Blank))    
     
     init(centerCoordinate: Coordinate) {
         super.init()

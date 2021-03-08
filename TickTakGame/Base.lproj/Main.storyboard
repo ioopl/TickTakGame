@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,7 +20,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chalkboard" translatesAutoresizingMaskIntoConstraints="NO" id="kEd-3f-AbH">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenboard" translatesAutoresizingMaskIntoConstraints="NO" id="kEd-3f-AbH">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="P7u-Gh-Xc8">
@@ -36,6 +37,7 @@
                                             </label>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r87-QT-Qcf">
                                                 <rect key="frame" x="194.5" y="0.0" width="198.5" height="46"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="playerOneTextField"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -53,6 +55,7 @@
                                             </label>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OWp-NU-TKG">
                                                 <rect key="frame" x="196.5" y="0.0" width="196.5" height="46"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                                 <accessibility key="accessibilityConfiguration" identifier="playerTwoTextField"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -82,7 +85,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YW2-bI-mbC">
-                                <rect key="frame" x="79" y="608" width="46" height="30"/>
+                                <rect key="frame" x="79" y="599" width="46" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" identifier="buttonSeven"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
@@ -91,7 +94,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4mt-1U-GX4">
-                                <rect key="frame" x="79" y="454" width="46" height="30"/>
+                                <rect key="frame" x="79" y="431" width="46" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" identifier="buttonOne"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
@@ -100,7 +103,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ic2-lp-MBs">
-                                <rect key="frame" x="173" y="521" width="46" height="30"/>
+                                <rect key="frame" x="173" y="512" width="46" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" identifier="buttonFive"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
@@ -118,7 +121,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="21" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUI-nk-xa0">
-                                <rect key="frame" x="265" y="530" width="46" height="30"/>
+                                <rect key="frame" x="265" y="520" width="46" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" identifier="buttonSix"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
@@ -127,7 +130,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="22" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6a2-cU-QmS">
-                                <rect key="frame" x="265" y="627" width="46" height="30"/>
+                                <rect key="frame" x="265" y="599" width="46" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" identifier="buttonNine"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
@@ -136,7 +139,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XhY-fM-dGc">
-                                <rect key="frame" x="265" y="454" width="46" height="30"/>
+                                <rect key="frame" x="265" y="435" width="46" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" identifier="buttonThree"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
@@ -145,7 +148,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMs-Wa-PaX">
-                                <rect key="frame" x="79" y="530" width="46" height="30"/>
+                                <rect key="frame" x="79" y="520" width="46" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" identifier="buttonFour"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
@@ -154,7 +157,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWw-qE-nE2">
-                                <rect key="frame" x="173" y="599" width="46" height="30"/>
+                                <rect key="frame" x="173" y="599" width="46" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <accessibility key="accessibilityConfiguration" identifier="buttonEight"/>
                                 <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
@@ -234,11 +237,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="luk-jU-W2y" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="324" y="244"/>
+            <point key="canvasLocation" x="323.1884057971015" y="243.75"/>
         </scene>
     </scenes>
     <resources>
         <image name="board" width="400" height="400"/>
-        <image name="chalkboard" width="1800" height="1800"/>
+        <image name="greenboard" width="2400" height="1645"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

@@ -46,10 +46,10 @@
             filePath = "TickTakGame/Models/Brain.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "Brain"
-            landmarkType = "3">
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "checkDiagonal(row:column:state:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
