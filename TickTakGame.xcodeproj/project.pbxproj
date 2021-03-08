@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCFFF40B25F63C2B003D207E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF40A25F63C2B003D207E /* AppDelegate.swift */; };
+		BCFFF40D25F63C2B003D207E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF40C25F63C2B003D207E /* SceneDelegate.swift */; };
+		BCFFF40F25F63C2B003D207E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF40E25F63C2B003D207E /* ViewController.swift */; };
+		BCFFF41225F63C2B003D207E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFFF41025F63C2B003D207E /* Main.storyboard */; };
+		BCFFF41425F63C2D003D207E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCFFF41325F63C2D003D207E /* Assets.xcassets */; };
+		BCFFF41725F63C2D003D207E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFFF41525F63C2D003D207E /* LaunchScreen.storyboard */; };
+		BCFFF42225F63C2D003D207E /* TickTakGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF42125F63C2D003D207E /* TickTakGameTests.swift */; };
+		BCFFF42D25F63C2D003D207E /* TickTakGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF42C25F63C2D003D207E /* TickTakGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCFFF41E25F63C2D003D207E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCFFF3FF25F63C2B003D207E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCFFF40625F63C2B003D207E;
+			remoteInfo = TickTakGame;
+		};
+		BCFFF42925F63C2D003D207E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCFFF3FF25F63C2B003D207E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCFFF40625F63C2B003D207E;
+			remoteInfo = TickTakGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCFFF40725F63C2B003D207E /* TickTakGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickTakGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFFF40A25F63C2B003D207E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCFFF40C25F63C2B003D207E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCFFF40E25F63C2B003D207E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCFFF41125F63C2B003D207E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCFFF41325F63C2D003D207E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCFFF41625F63C2D003D207E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCFFF41825F63C2D003D207E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFFF41D25F63C2D003D207E /* TickTakGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickTakGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFFF42125F63C2D003D207E /* TickTakGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickTakGameTests.swift; sourceTree = "<group>"; };
+		BCFFF42325F63C2D003D207E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFFF42825F63C2D003D207E /* TickTakGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickTakGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCFFF42C25F63C2D003D207E /* TickTakGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickTakGameUITests.swift; sourceTree = "<group>"; };
+		BCFFF42E25F63C2D003D207E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCFFF40425F63C2B003D207E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFFF41A25F63C2D003D207E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFFF42525F63C2D003D207E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCFFF3FE25F63C2B003D207E = {
+			isa = PBXGroup;
+			children = (
+				BCFFF40925F63C2B003D207E /* TickTakGame */,
+				BCFFF42025F63C2D003D207E /* TickTakGameTests */,
+				BCFFF42B25F63C2D003D207E /* TickTakGameUITests */,
+				BCFFF40825F63C2B003D207E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCFFF40825F63C2B003D207E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCFFF40725F63C2B003D207E /* TickTakGame.app */,
+				BCFFF41D25F63C2D003D207E /* TickTakGameTests.xctest */,
+				BCFFF42825F63C2D003D207E /* TickTakGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCFFF40925F63C2B003D207E /* TickTakGame */ = {
+			isa = PBXGroup;
+			children = (
+				BCFFF40A25F63C2B003D207E /* AppDelegate.swift */,
+				BCFFF40C25F63C2B003D207E /* SceneDelegate.swift */,
+				BCFFF40E25F63C2B003D207E /* ViewController.swift */,
+				BCFFF41025F63C2B003D207E /* Main.storyboard */,
+				BCFFF41325F63C2D003D207E /* Assets.xcassets */,
+				BCFFF41525F63C2D003D207E /* LaunchScreen.storyboard */,
+				BCFFF41825F63C2D003D207E /* Info.plist */,
+			);
+			path = TickTakGame;
+			sourceTree = "<group>";
+		};
+		BCFFF42025F63C2D003D207E /* TickTakGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCFFF42125F63C2D003D207E /* TickTakGameTests.swift */,
+				BCFFF42325F63C2D003D207E /* Info.plist */,
+			);
+			path = TickTakGameTests;
+			sourceTree = "<group>";
+		};
+		BCFFF42B25F63C2D003D207E /* TickTakGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCFFF42C25F63C2D003D207E /* TickTakGameUITests.swift */,
+				BCFFF42E25F63C2D003D207E /* Info.plist */,
+			);
+			path = TickTakGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCFFF40625F63C2B003D207E /* TickTakGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCFFF43125F63C2D003D207E /* Build configuration list for PBXNativeTarget "TickTakGame" */;
+			buildPhases = (
+				BCFFF40325F63C2B003D207E /* Sources */,
+				BCFFF40425F63C2B003D207E /* Frameworks */,
+				BCFFF40525F63C2B003D207E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TickTakGame;
+			productName = TickTakGame;
+			productReference = BCFFF40725F63C2B003D207E /* TickTakGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCFFF41C25F63C2D003D207E /* TickTakGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCFFF43425F63C2D003D207E /* Build configuration list for PBXNativeTarget "TickTakGameTests" */;
+			buildPhases = (
+				BCFFF41925F63C2D003D207E /* Sources */,
+				BCFFF41A25F63C2D003D207E /* Frameworks */,
+				BCFFF41B25F63C2D003D207E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCFFF41F25F63C2D003D207E /* PBXTargetDependency */,
+			);
+			name = TickTakGameTests;
+			productName = TickTakGameTests;
+			productReference = BCFFF41D25F63C2D003D207E /* TickTakGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCFFF42725F63C2D003D207E /* TickTakGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCFFF43725F63C2D003D207E /* Build configuration list for PBXNativeTarget "TickTakGameUITests" */;
+			buildPhases = (
+				BCFFF42425F63C2D003D207E /* Sources */,
+				BCFFF42525F63C2D003D207E /* Frameworks */,
+				BCFFF42625F63C2D003D207E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCFFF42A25F63C2D003D207E /* PBXTargetDependency */,
+			);
+			name = TickTakGameUITests;
+			productName = TickTakGameUITests;
+			productReference = BCFFF42825F63C2D003D207E /* TickTakGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCFFF3FF25F63C2B003D207E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BCFFF40625F63C2B003D207E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					BCFFF41C25F63C2D003D207E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BCFFF40625F63C2B003D207E;
+					};
+					BCFFF42725F63C2D003D207E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = BCFFF40625F63C2B003D207E;
+					};
+				};
+			};
+			buildConfigurationList = BCFFF40225F63C2B003D207E /* Build configuration list for PBXProject "TickTakGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCFFF3FE25F63C2B003D207E;
+			productRefGroup = BCFFF40825F63C2B003D207E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCFFF40625F63C2B003D207E /* TickTakGame */,
+				BCFFF41C25F63C2D003D207E /* TickTakGameTests */,
+				BCFFF42725F63C2D003D207E /* TickTakGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCFFF40525F63C2B003D207E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFFF41725F63C2D003D207E /* LaunchScreen.storyboard in Resources */,
+				BCFFF41425F63C2D003D207E /* Assets.xcassets in Resources */,
+				BCFFF41225F63C2B003D207E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFFF41B25F63C2D003D207E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFFF42625F63C2D003D207E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCFFF40325F63C2B003D207E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFFF40F25F63C2B003D207E /* ViewController.swift in Sources */,
+				BCFFF40B25F63C2B003D207E /* AppDelegate.swift in Sources */,
+				BCFFF40D25F63C2B003D207E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFFF41925F63C2D003D207E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFFF42225F63C2D003D207E /* TickTakGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCFFF42425F63C2D003D207E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCFFF42D25F63C2D003D207E /* TickTakGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCFFF41F25F63C2D003D207E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCFFF40625F63C2B003D207E /* TickTakGame */;
+			targetProxy = BCFFF41E25F63C2D003D207E /* PBXContainerItemProxy */;
+		};
+		BCFFF42A25F63C2D003D207E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCFFF40625F63C2B003D207E /* TickTakGame */;
+			targetProxy = BCFFF42925F63C2D003D207E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCFFF41025F63C2B003D207E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCFFF41125F63C2B003D207E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCFFF41525F63C2D003D207E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCFFF41625F63C2D003D207E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCFFF42F25F63C2D003D207E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCFFF43025F63C2D003D207E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCFFF43225F63C2D003D207E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TickTakGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apkia.TickTakGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCFFF43325F63C2D003D207E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TickTakGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apkia.TickTakGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCFFF43525F63C2D003D207E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TickTakGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apkia.TickTakGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TickTakGame.app/TickTakGame";
+			};
+			name = Debug;
+		};
+		BCFFF43625F63C2D003D207E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TickTakGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apkia.TickTakGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TickTakGame.app/TickTakGame";
+			};
+			name = Release;
+		};
+		BCFFF43825F63C2D003D207E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TickTakGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apkia.TickTakGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TickTakGame;
+			};
+			name = Debug;
+		};
+		BCFFF43925F63C2D003D207E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TickTakGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apkia.TickTakGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TickTakGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCFFF40225F63C2B003D207E /* Build configuration list for PBXProject "TickTakGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFFF42F25F63C2D003D207E /* Debug */,
+				BCFFF43025F63C2D003D207E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCFFF43125F63C2D003D207E /* Build configuration list for PBXNativeTarget "TickTakGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFFF43225F63C2D003D207E /* Debug */,
+				BCFFF43325F63C2D003D207E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCFFF43425F63C2D003D207E /* Build configuration list for PBXNativeTarget "TickTakGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFFF43525F63C2D003D207E /* Debug */,
+				BCFFF43625F63C2D003D207E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCFFF43725F63C2D003D207E /* Build configuration list for PBXNativeTarget "TickTakGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCFFF43825F63C2D003D207E /* Debug */,
+				BCFFF43925F63C2D003D207E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCFFF3FF25F63C2B003D207E /* Project object */;
+}
