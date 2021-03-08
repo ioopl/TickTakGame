@@ -1,24 +1,244 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RH6-WA-K5S">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="0QX-Hy-Cgg">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController storyboardIdentifier="ViewController" id="RH6-WA-K5S" customClass="ViewController" customModule="TickTakGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rdy-Yu-uOz"/>
+                        <viewControllerLayoutGuide type="bottom" id="D4g-hH-CAF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="I0j-3P-FlF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chalkboard" translatesAutoresizingMaskIntoConstraints="NO" id="kEd-3f-AbH">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="P7u-Gh-Xc8">
+                                <rect key="frame" x="10.5" y="124" width="393" height="100"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fKw-gf-ko2">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="46"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Player One:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCx-DM-Vs0">
+                                                <rect key="frame" x="0.0" y="0.0" width="194.5" height="46"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="r87-QT-Qcf">
+                                                <rect key="frame" x="194.5" y="0.0" width="198.5" height="46"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="playerOneTextField"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hU4-bp-WCW">
+                                        <rect key="frame" x="0.0" y="54" width="393" height="46"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Player Two:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2D6-YN-YKT">
+                                                <rect key="frame" x="0.0" y="0.0" width="196.5" height="46"/>
+                                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OWp-NU-TKG">
+                                                <rect key="frame" x="196.5" y="0.0" width="196.5" height="46"/>
+                                                <accessibility key="accessibilityConfiguration" identifier="playerTwoTextField"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="aN2-L1-V0O"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onF-mD-JOJ">
+                                <rect key="frame" x="172" y="310" width="70" height="47"/>
+                                <accessibility key="accessibilityConfiguration" identifier="startButton"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="27"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startGameNew:" destination="RH6-WA-K5S" eventType="touchUpInside" id="qXp-4g-9lA"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="board" translatesAutoresizingMaskIntoConstraints="NO" id="R0Q-gn-upO" userLabel="board">
+                                <rect key="frame" x="0.0" y="395" width="414" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="30a-0m-wpC"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YW2-bI-mbC">
+                                <rect key="frame" x="79" y="608" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="buttonSeven"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
+                                <connections>
+                                    <action selector="buttonTappedWithSender:" destination="RH6-WA-K5S" eventType="touchUpInside" id="KzI-jD-qql"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4mt-1U-GX4">
+                                <rect key="frame" x="79" y="454" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="buttonOne"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
+                                <connections>
+                                    <action selector="buttonTappedWithSender:" destination="RH6-WA-K5S" eventType="touchUpInside" id="r98-go-qNb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ic2-lp-MBs">
+                                <rect key="frame" x="173" y="521" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="buttonFive"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
+                                <connections>
+                                    <action selector="buttonTappedWithSender:" destination="RH6-WA-K5S" eventType="touchUpInside" id="l8L-vG-Wo9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epp-HR-Rhq">
+                                <rect key="frame" x="173" y="435" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="buttonTwo"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
+                                <connections>
+                                    <action selector="buttonTappedWithSender:" destination="RH6-WA-K5S" eventType="touchUpInside" id="B6C-1v-jbs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="21" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUI-nk-xa0">
+                                <rect key="frame" x="265" y="530" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="buttonSix"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
+                                <connections>
+                                    <action selector="buttonTappedWithSender:" destination="RH6-WA-K5S" eventType="touchUpInside" id="lhr-Si-EEO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="22" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6a2-cU-QmS">
+                                <rect key="frame" x="265" y="627" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="buttonNine"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
+                                <connections>
+                                    <action selector="buttonTappedWithSender:" destination="RH6-WA-K5S" eventType="touchUpInside" id="CXP-0h-AiT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XhY-fM-dGc">
+                                <rect key="frame" x="265" y="454" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="buttonThree"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
+                                <connections>
+                                    <action selector="buttonTappedWithSender:" destination="RH6-WA-K5S" eventType="touchUpInside" id="Htw-5M-e1x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HMs-Wa-PaX">
+                                <rect key="frame" x="79" y="530" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="buttonFour"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
+                                <connections>
+                                    <action selector="buttonTappedWithSender:" destination="RH6-WA-K5S" eventType="touchUpInside" id="AxI-la-CQI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bWw-qE-nE2">
+                                <rect key="frame" x="173" y="599" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="buttonEight"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="59"/>
+                                <connections>
+                                    <action selector="buttonTappedWithSender:" destination="RH6-WA-K5S" eventType="touchUpInside" id="AEV-Mb-L6Y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XpR-pM-xPB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="P7u-Gh-Xc8" firstAttribute="width" secondItem="I0j-3P-FlF" secondAttribute="width" multiplier="0.95" id="9ds-Zl-N8g"/>
+                            <constraint firstItem="kEd-3f-AbH" firstAttribute="centerY" secondItem="I0j-3P-FlF" secondAttribute="centerY" id="CH2-Ba-OO7"/>
+                            <constraint firstItem="onF-mD-JOJ" firstAttribute="centerX" secondItem="I0j-3P-FlF" secondAttribute="centerX" id="IBD-Uk-NbB"/>
+                            <constraint firstItem="R0Q-gn-upO" firstAttribute="width" secondItem="I0j-3P-FlF" secondAttribute="width" id="IN1-gE-mgX"/>
+                            <constraint firstItem="P7u-Gh-Xc8" firstAttribute="centerX" secondItem="I0j-3P-FlF" secondAttribute="centerX" id="KEl-Gr-14e"/>
+                            <constraint firstItem="kEd-3f-AbH" firstAttribute="width" secondItem="I0j-3P-FlF" secondAttribute="width" id="cgs-97-wVh"/>
+                            <constraint firstItem="onF-mD-JOJ" firstAttribute="top" secondItem="P7u-Gh-Xc8" secondAttribute="top" multiplier="2.5" id="e2a-Xy-vel"/>
+                            <constraint firstItem="kEd-3f-AbH" firstAttribute="height" secondItem="I0j-3P-FlF" secondAttribute="height" id="f0r-Am-cfa"/>
+                            <constraint firstItem="R0Q-gn-upO" firstAttribute="top" secondItem="P7u-Gh-Xc8" secondAttribute="top" multiplier="3" id="luv-FY-X6T">
+                                <variation key="widthClass=compact" constant="23"/>
+                            </constraint>
+                            <constraint firstItem="P7u-Gh-Xc8" firstAttribute="top" secondItem="I0j-3P-FlF" secondAttribute="topMargin" constant="80" id="n7q-Vj-HLw"/>
+                            <constraint firstItem="kEd-3f-AbH" firstAttribute="centerX" secondItem="I0j-3P-FlF" secondAttribute="centerX" id="qIe-Fi-mLT"/>
+                            <constraint firstItem="R0Q-gn-upO" firstAttribute="centerX" secondItem="I0j-3P-FlF" secondAttribute="centerX" id="zZ2-aZ-2Up"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="onF-mD-JOJ"/>
+                                <exclude reference="YW2-bI-mbC"/>
+                                <exclude reference="4mt-1U-GX4"/>
+                                <exclude reference="Ic2-lp-MBs"/>
+                                <exclude reference="epp-HR-Rhq"/>
+                                <exclude reference="NUI-nk-xa0"/>
+                                <exclude reference="6a2-cU-QmS"/>
+                                <exclude reference="XhY-fM-dGc"/>
+                                <exclude reference="HMs-Wa-PaX"/>
+                                <exclude reference="bWw-qE-nE2"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="IBD-Uk-NbB"/>
+                                <exclude reference="e2a-Xy-vel"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="onF-mD-JOJ"/>
+                                <include reference="YW2-bI-mbC"/>
+                                <include reference="4mt-1U-GX4"/>
+                                <include reference="Ic2-lp-MBs"/>
+                                <include reference="epp-HR-Rhq"/>
+                                <include reference="NUI-nk-xa0"/>
+                                <include reference="6a2-cU-QmS"/>
+                                <include reference="XhY-fM-dGc"/>
+                                <include reference="HMs-Wa-PaX"/>
+                                <include reference="bWw-qE-nE2"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="IBD-Uk-NbB"/>
+                                <include reference="e2a-Xy-vel"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <connections>
+                        <outlet property="buttonEight" destination="bWw-qE-nE2" id="tbv-13-5Pr"/>
+                        <outlet property="buttonFive" destination="Ic2-lp-MBs" id="Lgc-I4-Lye"/>
+                        <outlet property="buttonFour" destination="HMs-Wa-PaX" id="wPa-XX-4iu"/>
+                        <outlet property="buttonNine" destination="6a2-cU-QmS" id="kCQ-h4-TIo"/>
+                        <outlet property="buttonOne" destination="4mt-1U-GX4" id="ua4-hy-utJ"/>
+                        <outlet property="buttonSeven" destination="YW2-bI-mbC" id="RfI-u5-ozX"/>
+                        <outlet property="buttonSix" destination="NUI-nk-xa0" id="VtK-cD-wa4"/>
+                        <outlet property="buttonThree" destination="XhY-fM-dGc" id="ypB-kC-Z5y"/>
+                        <outlet property="buttonTwo" destination="epp-HR-Rhq" id="Nqo-bj-0g2"/>
+                        <outlet property="playerOneTextField" destination="r87-QT-Qcf" id="0Et-zi-YIq"/>
+                        <outlet property="playerTwoTextField" destination="OWp-NU-TKG" id="oX4-4K-ccR"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="luk-jU-W2y" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="324" y="244"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="board" width="400" height="400"/>
+        <image name="chalkboard" width="1800" height="1800"/>
+    </resources>
 </document>

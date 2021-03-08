@@ -15,6 +15,10 @@
 		BCFFF41725F63C2D003D207E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCFFF41525F63C2D003D207E /* LaunchScreen.storyboard */; };
 		BCFFF42225F63C2D003D207E /* TickTakGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF42125F63C2D003D207E /* TickTakGameTests.swift */; };
 		BCFFF42D25F63C2D003D207E /* TickTakGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF42C25F63C2D003D207E /* TickTakGameUITests.swift */; };
+		BCFFF43F25F6431B003D207E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF43E25F6431B003D207E /* Game.swift */; };
+		BCFFF44725F64327003D207E /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF44625F64327003D207E /* Brain.swift */; };
+		BCFFF44C25F6433D003D207E /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF44B25F6433D003D207E /* Coordinate.swift */; };
+		BCFFF45125F64345003D207E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF45025F64345003D207E /* State.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		BCFFF42825F63C2D003D207E /* TickTakGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickTakGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFFF42C25F63C2D003D207E /* TickTakGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickTakGameUITests.swift; sourceTree = "<group>"; };
 		BCFFF42E25F63C2D003D207E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFFF43E25F6431B003D207E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		BCFFF44625F64327003D207E /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
+		BCFFF44B25F6433D003D207E /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		BCFFF45025F64345003D207E /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		BCFFF40925F63C2B003D207E /* TickTakGame */ = {
 			isa = PBXGroup;
 			children = (
+				BCFFF43D25F63D63003D207E /* Models */,
 				BCFFF40A25F63C2B003D207E /* AppDelegate.swift */,
 				BCFFF40C25F63C2B003D207E /* SceneDelegate.swift */,
 				BCFFF40E25F63C2B003D207E /* ViewController.swift */,
@@ -126,6 +135,17 @@
 				BCFFF42E25F63C2D003D207E /* Info.plist */,
 			);
 			path = TickTakGameUITests;
+			sourceTree = "<group>";
+		};
+		BCFFF43D25F63D63003D207E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BCFFF43E25F6431B003D207E /* Game.swift */,
+				BCFFF44625F64327003D207E /* Brain.swift */,
+				BCFFF44B25F6433D003D207E /* Coordinate.swift */,
+				BCFFF45025F64345003D207E /* State.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +281,10 @@
 				BCFFF40F25F63C2B003D207E /* ViewController.swift in Sources */,
 				BCFFF40B25F63C2B003D207E /* AppDelegate.swift in Sources */,
 				BCFFF40D25F63C2B003D207E /* SceneDelegate.swift in Sources */,
+				BCFFF44725F64327003D207E /* Brain.swift in Sources */,
+				BCFFF43F25F6431B003D207E /* Game.swift in Sources */,
+				BCFFF45125F64345003D207E /* State.swift in Sources */,
+				BCFFF44C25F6433D003D207E /* Coordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
