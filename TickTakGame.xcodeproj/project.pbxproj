@@ -19,6 +19,7 @@
 		BCFFF44725F64327003D207E /* Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF44625F64327003D207E /* Brain.swift */; };
 		BCFFF44C25F6433D003D207E /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF44B25F6433D003D207E /* Coordinate.swift */; };
 		BCFFF45125F64345003D207E /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF45025F64345003D207E /* State.swift */; };
+		BCFFF45E25F826E0003D207E /* BrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFFF45D25F826E0003D207E /* BrainTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		BCFFF44625F64327003D207E /* Brain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brain.swift; sourceTree = "<group>"; };
 		BCFFF44B25F6433D003D207E /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
 		BCFFF45025F64345003D207E /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		BCFFF45D25F826E0003D207E /* BrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			children = (
 				BCFFF42125F63C2D003D207E /* TickTakGameTests.swift */,
 				BCFFF42325F63C2D003D207E /* Info.plist */,
+				BCFFF45D25F826E0003D207E /* BrainTests.swift */,
 			);
 			path = TickTakGameTests;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCFFF45E25F826E0003D207E /* BrainTests.swift in Sources */,
 				BCFFF42225F63C2D003D207E /* TickTakGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
