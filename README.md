@@ -18,4 +18,7 @@ The Coordinates(x,y) are a grid of 3X3 matrix like so below :
 
 
 
-<img width="218" alt="Screenshot 2021-03-09 at 22 23 30" src="https://user-images.githubusercontent.com/503469/110546225-1ff7b580-8126-11eb-8bc6-f1e671abcd76.png">
+
+
+
+<img width="220" alt="Screenshot 2021-03-09 at 22 24 33" src="https://user-images.githubusercontent.com/503469/110546500-7533c700-8126-11eb-8439-c5b397e2ba0f.png">
