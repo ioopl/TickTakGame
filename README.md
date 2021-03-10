@@ -21,3 +21,11 @@ The Coordinates(x,y) are a grid of 3X3 matrix like so below :
    ____________________
 
 2    | 2,0  | 2,1  | 2,2
+
+
+
+Resources and References 
+
+https://www.avanderlee.com/swift/unit-tests-best-practices/
+
+https://www.youtube.com/watch?v=rD3uqeLdal8
